@@ -358,11 +358,13 @@ label #cancel {
         font-size: 35px;
         width: 400px;
         padding-top: 35px;
+        margin: auto;
     }
 
     .explore-travel-description {
         width: 500px;
         font-size: 20px;
+        margin: auto;
         margin-top: 13px;
     }
 
@@ -373,6 +375,7 @@ label #cancel {
         margin: auto;
         margin-top: 32px;
         height: 290px;
+        margin-bottom: 15px;
     }
 
     .find .explore-travel-input {
