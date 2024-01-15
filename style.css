@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     max-width: 1440px;
     background-color: #fff;
@@ -74,8 +73,6 @@ nav .menu ul li a {
     font-weight: 400;
 }
 
-
-
 label #btn,
 label #cancel {
     color: black;
@@ -91,11 +88,98 @@ label #cancel {
 
 /* nav end here. */
 
+/* Explore travel start from here. */
+.explore-travel {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('Images/1.png');
+    border-radius: 16px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.explore-travel-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    width: 600px;
+    padding-top: 106px;
+    margin: auto;
+}
+
+.explore-travel-description {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    width: 675px;
+    margin: auto;
+    margin-top: 24px;
+}
+
+.find {
+    width: 800px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+}
+
+.explore-travel-input {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+    padding: 15px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.find #find-now {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    background: #FF5400;
+}
+
+.find .find-now i {
+    margin-left: 8px;
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query start from here. */
 @media screen and (max-width:600px) {
 
-    .container{
+    .container {
         margin: 0 20px;
     }
 
@@ -158,12 +242,56 @@ label #cancel {
         display: block;
     }
 
+
+    /* .explore-travel start from here */
+    .explore-travel {
+        background-repeat: no-repeat;
+        margin-top: 0;
+    }
+
+    .find {
+        flex-direction: column;
+    }
+
+    .explore-travel-title {
+        font-size: 22px;
+        width: 205px;
+        padding-top: 32px;
+    }
+
+    .explore-travel-description {
+        width: 305px;
+        font-size: 14px;
+        margin-top: 8px;
+    }
+
+    .find {
+        width: 80%;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        margin: auto;
+        margin-top: 32px;
+        height: 290px;
+    }
+
+    .find .explore-travel-input {
+        margin: 16px;
+        width: 90%;
+        margin: auto;
+        gap: 16px;
+    }
+
+
+
 }
 
 
-@media screen and (min-width:600px) and (max-width:992px) {
-    
-    .container{
+
+
+
+@media screen and (min-width:600px) and (max-width:885px) {
+
+    .container {
         margin: 0 20px;
     }
 
@@ -215,4 +343,44 @@ label #cancel {
     #check:checked~label #cancel {
         display: block;
     }
+
+/* .explore-travel start from here */
+    .explore-travel {
+        background-repeat: no-repeat;
+        margin-top: 0;
+    }
+
+    .find {
+        flex-direction: column;
+    }
+
+    .explore-travel-title {
+        font-size: 35px;
+        width: 400px;
+        padding-top: 35px;
+    }
+
+    .explore-travel-description {
+        width: 500px;
+        font-size: 20px;
+        margin-top: 13px;
+    }
+
+    .find {
+        width: 80%;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        margin: auto;
+        margin-top: 32px;
+        height: 290px;
+    }
+
+    .find .explore-travel-input {
+        margin: 16px;
+        width: 90%;
+        margin: auto;
+        gap: 16px;
+    }
+
+
 }
