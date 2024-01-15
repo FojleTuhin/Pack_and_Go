@@ -1,0 +1,12 @@
+*{
+    
+}
+
+
+body{
+    max-width: 1440px;
+    background-color: aqua;
+    border: 1px solid red;
+    max-height: 100px;
+    margin: auto;
+}
