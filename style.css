@@ -976,7 +976,7 @@ footer .copy{
 
 }
 
-@media screen and (min-width:600px) and (max-width:885px) {
+@media screen and (min-width:600px) and (max-width:992px) {
 
     #see-all-package {
         display: none;
