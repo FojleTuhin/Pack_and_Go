@@ -494,6 +494,88 @@ label #cancel {
 }
 
 
+/* newsletter start from here. */
+
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletter .box {
+    width: 475px;
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    margin-top: -16px;
+}
+
+.newsletter .box .box-in {
+    display: block;
+    width: 395px;
+    height: 53px;
+    margin-bottom: 16px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+.subscribe {
+    margin-top: 16px;
+    width: 395px;
+    height: 53px;
+
+}
+
+.newsletter .box h2 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.newsletter .box p {
+    width: 350px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.newsletter .box hr {
+    margin-bottom: 24px;
+}
+
+.newsletter-img-offer h3{
+    color: #FFF;
+text-align: center;
+font-size: 24px;
+font-weight: 400;
+}
+
+.newsletter-img-offer h2{
+    color: #FFF;
+font-size: 32px;
+font-weight: 800;
+}
+
+.newsletter-img-offer{
+    text-align: center;
+    width: 324px;
+    padding: 15px;
+    border-radius: 16px;
+    position: relative;
+    left: 356px;
+    bottom: 182px;
+    background: #FF5400;
+    transform: rotate(-35deg);
+}
+
+
+
 
 
 
@@ -529,27 +611,27 @@ label #cancel {
         font-size: 20px;
         margin: auto;
         align-items: center;
-       
+
     }
 
-    
-.perfect-place-img img{
-    margin-top: 24px;
-    width: 100%;
-}
 
-    .perfect-place .perfect-place-contain ul li{
+    .perfect-place-img img {
+        margin-top: 24px;
+        width: 100%;
+    }
+
+    .perfect-place .perfect-place-contain ul li {
         width: 90%;
         margin: auto;
         margin-bottom: 25px;
     }
 
-    .perfect-place .perfect-place-contain h1{
+    .perfect-place .perfect-place-contain h1 {
         width: 250px;
         font-size: 20px;
     }
 
-    .perfect-place .perfect-place-contain p{
+    .perfect-place .perfect-place-contain p {
         font-size: 14px;
     }
 
@@ -925,27 +1007,27 @@ label #cancel {
         font-size: 20px;
         margin: auto;
         align-items: center;
-       
+
     }
 
-    
-.perfect-place-img img{
-    margin-top: 24px;
-    width: 100%;
-}
 
-    .perfect-place .perfect-place-contain ul li{
+    .perfect-place-img img {
+        margin-top: 24px;
+        width: 100%;
+    }
+
+    .perfect-place .perfect-place-contain ul li {
         width: 90%;
         margin: auto;
         margin-bottom: 25px;
     }
 
-    .perfect-place .perfect-place-contain h1{
+    .perfect-place .perfect-place-contain h1 {
         width: 250px;
         font-size: 20px;
     }
 
-    .perfect-place .perfect-place-contain p{
+    .perfect-place .perfect-place-contain p {
         font-size: 14px;
     }
 
